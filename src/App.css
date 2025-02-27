@@ -1,0 +1,71 @@
+/* General App Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Spreadsheet Table */
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  min-width: 80px;
+  height: 30px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Editable Cell */
+.cell {
+  position: relative;
+  cursor: pointer;
+}
+
+.cell input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 14px;
+  background: none;
+}
+
+/* Highlight active cell */
+.cell:focus-within {
+  background-color: #eef6ff;
+  outline: 2px solid #007bff;
+}
+
+/* Button Styling */
+button {
+  padding: 8px 12px;
+  margin: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
