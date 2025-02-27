@@ -1,0 +1,7 @@
+# -These are the required dependencies to run the chatbot.
+
+flask
+json
+
+# -To install dependencies, run:
+pip install -r requirements.txt
